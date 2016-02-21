@@ -1,0 +1,60 @@
+﻿Build started 14-Jul-15 23:20:04.
+     1>Project "C:\Users\Diana\Documents\Visual Studio 2012\Projects\DynamicLibrary\Olsr_gamma\Olsr_gamma.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D OLSR_GAMMA_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Olsr_gamma.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Olsr_gamma.cpp
+         Olsr_gamma.cpp
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(113): warning C4251: 'OLSR_protocol::HELLO_message::Neighbor_list' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::HELLO_message'
+                 with
+                 [
+                     _Ty=OLSR_protocol::HELLO_message::Neigh_interface_add
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(125): warning C4251: 'OLSR_protocol::TC_message::AN_Main_Address' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::TC_message'
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(221): warning C4251: 'OLSR_protocol::Node::L_set' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::Link_Set
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(222): warning C4251: 'OLSR_protocol::Node::N_set' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::Neighbor_Set
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(223): warning C4251: 'OLSR_protocol::Node::_2hop_set' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::_2hop_Neighbor_Set
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(224): warning C4251: 'OLSR_protocol::Node::Mpr_set' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::MPR_Set
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(225): warning C4251: 'OLSR_protocol::Node::MS_set' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::MPR_Selector_Set
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(227): warning C4251: 'OLSR_protocol::Node::T_set' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::Topology_Set
+                 ]
+     1>c:\users\diana\documents\visual studio 2012\projects\dynamiclibrary\olsr_gamma\olsr.h(228): warning C4251: 'OLSR_protocol::Node::R_table' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'OLSR_protocol::Node'
+                 with
+                 [
+                     _Ty=OLSR_protocol::Routing_table
+                 ]
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Diana\Documents\Visual Studio 2012\Projects\DynamicLibrary\Debug\Olsr_gamma.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Diana\Documents\Visual Studio 2012\Projects\DynamicLibrary\Debug\Olsr_gamma.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Diana\Documents\Visual Studio 2012\Projects\DynamicLibrary\Debug\Olsr_gamma.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\Olsr_gamma.obj
+         Debug\stdafx.obj
+         Olsr_gamma.vcxproj -> C:\Users\Diana\Documents\Visual Studio 2012\Projects\DynamicLibrary\Debug\Olsr_gamma.dll
+     1>Done Building Project "C:\Users\Diana\Documents\Visual Studio 2012\Projects\DynamicLibrary\Olsr_gamma\Olsr_gamma.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28
